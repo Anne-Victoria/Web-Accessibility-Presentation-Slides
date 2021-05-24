@@ -1,7 +1,5 @@
 /**
- * Black theme for reveal.js.
- *
- * Copyright (C) 2011-2012 Hakim El Hattab, http://hakim.se
+ * Custom pink theme
  */
 @import url(https://fonts.googleapis.com/css?family=Montserrat:700);
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700,400italic,700italic);
@@ -13,52 +11,52 @@ section.has-light-background, section.has-light-background h1, section.has-light
  * GLOBAL STYLES
  *********************************************/
 :root {
-  --background-color: #111;
+  --background-color: #f1f1f1;
   --main-font: Open Sans, sans-serif;
   --main-font-size: 40px;
-  --main-color: #eee;
+  --main-color: #333;
   --block-margin: 20px;
   --heading-margin: 0 0 20px 0;
   --heading-font: Montserrat, Impact, sans-serif;
-  --heading-color: #eee;
+  --heading-color: #B52467;
   --heading-line-height: 1.2;
   --heading-letter-spacing: -0.03em;
   --heading-text-transform: none;
   --heading-text-shadow: none;
   --heading-font-weight: normal;
   --heading1-text-shadow: none;
-  --heading1-size: 3.77em;
-  --heading2-size: 2.11em;
-  --heading3-size: 1.55em;
+  --heading1-size: 1.953em;
+  --heading2-size: 1.563em;
+  --heading3-size: 1.25em;
   --heading4-size: 1em;
   --code-font: monospace;
-  --link-color: #e7ad52;
-  --link-color-hover: #f3d7ac;
-  --selection-background-color: #e7ad52;
+  --link-color: #34aaff;
+  --link-color-hover: #9ad5ff;
+  --selection-background-color: #134674;
   --selection-color: #fff;
 }
 
 .reveal-viewport {
-  background: #111;
-  background-color: #111;
+  background: #f1f1f1;
+  background-color: #f1f1f1;
 }
 
 .reveal {
   font-family: "Open Sans", sans-serif;
   font-size: 40px;
   font-weight: normal;
-  color: #eee;
+  color: #333;
 }
 
 .reveal ::selection {
   color: #fff;
-  background: #e7ad52;
+  background: #134674;
   text-shadow: none;
 }
 
 .reveal ::-moz-selection {
   color: #fff;
-  background: #e7ad52;
+  background: #134674;
   text-shadow: none;
 }
 
@@ -78,7 +76,7 @@ section.has-light-background, section.has-light-background h1, section.has-light
 .reveal h5,
 .reveal h6 {
   margin: 0 0 20px 0;
-  color: #eee;
+  color: #B52467;
   font-family: "Montserrat", Impact, sans-serif;
   font-weight: normal;
   line-height: 1.2;
@@ -89,15 +87,15 @@ section.has-light-background, section.has-light-background h1, section.has-light
 }
 
 .reveal h1 {
-  font-size: 3.77em;
+  font-size: 1.953em;
 }
 
 .reveal h2 {
-  font-size: 2.11em;
+  font-size: 1.563em;
 }
 
 .reveal h3 {
-  font-size: 1.55em;
+  font-size: 1.25em;
 }
 
 .reveal h4 {
@@ -299,27 +297,27 @@ section.has-light-background, section.has-light-background h1, section.has-light
  * LINKS
  *********************************************/
 .reveal a {
-  color: #e7ad52;
+  color: #34aaff;
   text-decoration: none;
   transition: color 0.15s ease;
 }
 
 .reveal a:hover {
-  color: #f3d7ac;
+  color: #9ad5ff;
   text-shadow: none;
   border: none;
 }
 
 .reveal .roll span:after {
   color: #fff;
-  background: #d08a1d;
+  background: #0086e7;
 }
 
 /*********************************************
  * Frame helper
  *********************************************/
 .reveal .r-frame {
-  border: 4px solid #eee;
+  border: 4px solid #333;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
 }
 
@@ -328,7 +326,7 @@ section.has-light-background, section.has-light-background h1, section.has-light
 }
 
 .reveal a:hover .r-frame {
-  border-color: #e7ad52;
+  border-color: #34aaff;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.55);
 }
 
@@ -336,7 +334,7 @@ section.has-light-background, section.has-light-background h1, section.has-light
  * NAVIGATION CONTROLS
  *********************************************/
 .reveal .controls {
-  color: #e7ad52;
+  color: #34aaff;
 }
 
 /*********************************************
@@ -344,7 +342,7 @@ section.has-light-background, section.has-light-background h1, section.has-light
  *********************************************/
 .reveal .progress {
   background: rgba(0, 0, 0, 0.2);
-  color: #e7ad52;
+  color: #34aaff;
 }
 
 /*********************************************
@@ -352,6 +350,13 @@ section.has-light-background, section.has-light-background h1, section.has-light
  *********************************************/
 @media print {
   .backgrounds {
-    background-color: #111;
+    background-color: #f1f1f1;
   }
+}
+.reveal li {
+  margin-bottom: 0.25em;
+}
+
+.reveal .slides {
+  text-align: left;
 }
