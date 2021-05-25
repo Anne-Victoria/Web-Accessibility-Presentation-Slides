@@ -46,3 +46,18 @@ $heading4Size: 1.00em;
 .reveal .slides {
   text-align: left;
 }
+
+.keyboard-only {
+  height: 30px;
+  left: 50%;
+  padding: 8px;
+  position: absolute;
+  transform: translateY(-100%);
+  transition: transform 0.3s;
+  background-color: #f1f1f1;
+  border: 1px solid #B52467;
+}
+
+.keyboard-only:focus {
+  transform: translateY(0%);
+}
