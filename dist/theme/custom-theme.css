@@ -30,8 +30,8 @@ section.has-light-background, section.has-light-background h1, section.has-light
   --heading3-size: 1.25em;
   --heading4-size: 1em;
   --code-font: monospace;
-  --link-color: #34aaff;
-  --link-color-hover: #9ad5ff;
+  --link-color: #0082df;
+  --link-color-hover: #46b2ff;
   --selection-background-color: #134674;
   --selection-color: #fff;
 }
@@ -297,20 +297,20 @@ section.has-light-background, section.has-light-background h1, section.has-light
  * LINKS
  *********************************************/
 .reveal a {
-  color: #34aaff;
+  color: #0082df;
   text-decoration: none;
   transition: color 0.15s ease;
 }
 
 .reveal a:hover {
-  color: #9ad5ff;
+  color: #46b2ff;
   text-shadow: none;
   border: none;
 }
 
 .reveal .roll span:after {
   color: #fff;
-  background: #0086e7;
+  background: #005593;
 }
 
 /*********************************************
@@ -326,7 +326,7 @@ section.has-light-background, section.has-light-background h1, section.has-light
 }
 
 .reveal a:hover .r-frame {
-  border-color: #34aaff;
+  border-color: #0082df;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.55);
 }
 
@@ -334,7 +334,7 @@ section.has-light-background, section.has-light-background h1, section.has-light
  * NAVIGATION CONTROLS
  *********************************************/
 .reveal .controls {
-  color: #34aaff;
+  color: #0082df;
 }
 
 /*********************************************
@@ -342,7 +342,7 @@ section.has-light-background, section.has-light-background h1, section.has-light
  *********************************************/
 .reveal .progress {
   background: rgba(0, 0, 0, 0.2);
-  color: #34aaff;
+  color: #0082df;
 }
 
 /*********************************************
